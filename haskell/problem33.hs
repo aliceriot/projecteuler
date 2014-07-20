@@ -33,5 +33,5 @@ checkPair (a,b) | a == b = False
 checkEmAll = filter checkPair $ map tupleFromInt list
 
 -- this gives us the result [(16.0,64.0),(19.0,95.0),(26.0,65.0),(49.0,98.0)]
--- if we multiply out the numerator and denominator we get 387296 / 28729600
+-- if we multiply out the numerator and denominator we get 387296 / 38729600
 -- so it is 1/100, and 100 is our answer
