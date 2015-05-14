@@ -1,3 +1,4 @@
+#lang racket
 ;; first we want to write a function which gets a given triangular number
 
 (define trianum
@@ -37,3 +38,5 @@
 ;; not sure if this is a great way to do this 
 ;; in fact I just don't think it works
 ;; I'll come back to it later/do it in python
+
+(find-500 6)
